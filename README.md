@@ -18,3 +18,10 @@ Server runs at: http://localhost:3001
 - Select the "Locally" environment
 - Use /register and /login to get a token
 - Access protected routes like /courses using the token
+
+✅ Testing & Reporting
+This project includes a complete testing workflow using:
+• 	Postman: For manual testing of all API endpoints, including authentication and protected routes.
+• 	Newman: To automate Postman tests via CLI, ensuring consistent results across environments.
+• 	HTML Report: Generated from Newman runs to visualize test results with detailed request/response logs.
+• 	Jenkins Integration: Automated test execution and report generation on every push or scheduled build, ensuring continuous validation of the API.
