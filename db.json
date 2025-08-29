@@ -1,0 +1,46 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "postman",
+      "description": "full postman course "
+    },
+    {
+      "id": "2",
+      "title": "Selenium",
+      "description": "full Selenium course "
+    },
+    {
+      "id": "3",
+      "title": "cypress",
+      "description": "full cypress course "
+    },
+    {
+      "title": "Appium",
+      "description": "Full Appium course",
+      "id": "65UdfSt"
+    }
+  ],
+  "users": [
+    {
+      "email": "olivia@gmail.com",
+      "password": "$2a$10$VUebqE2I9kpcyBB/5sdc1Ob4mWp7PNS1/kEeTtsdGiWtNKXXo4X/O",
+      "id": 1
+    },
+    {
+      "email": "rehab123@qacat.com",
+      "password": "$2a$10$A0Xr4THIrUl7VX/qXh9oNO160xlED0KzYBUcQAt5ZoUU0L5GYf5fS",
+      "id": 2
+    },
+    {
+      "email": "admin@site.com",
+      "password": "hashed_password",
+      "role": "admin",
+      "id": 3
+    }
+  
+  
+  ]
+ 
+  
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Courses</title>
+</head>
+<body>
+  <h2>Available Courses</h2>
+  <ul id="courseList"></ul>
+
+
+  
+  <script>
+    fetch('http://localhost:3001/courses')
+      .then(res => res.json())
+      .then(data => {
+        const list = document.getElementById('courseList');
+        data.forEach(course => {
+          const item = document.createElement('li');
+          item.textContent = `${course.title} - ${course.description}`;
+          list.appendChild(item);
+        });
+      });
+  </script>
+</body>
+</html>
