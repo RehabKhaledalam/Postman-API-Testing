@@ -6,6 +6,7 @@ node server.js
 
 
 Server runs at: http://localhost:3001
+
 📁 Key Files
 - db.json – Mock database (users, courses)
 - server.js – Server setup with authentication
