@@ -19,7 +19,7 @@ Server runs at: http://localhost:3001
 - Use /register and /login to get a token
 - Access protected routes like /courses using the token
 
-✅ Testing & Reporting
+✅ Testing & Reporting:
 This project includes a complete testing workflow using:
 
 • 	Postman: For manual testing of all API endpoints, including authentication and protected routes.
